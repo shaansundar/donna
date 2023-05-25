@@ -1,0 +1,28 @@
+{
+  "name": "donna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon ",
+    "start": "npx tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaansundar/donna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaansundar/donna/issues"
+  },
+  "homepage": "https://github.com/shaansundar/donna#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
